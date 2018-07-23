@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Toggle from './Toggle'
 import './index.css';
 //import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import LoginControl from "./LoginControl";
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 //registerServiceWorker();
@@ -56,8 +58,8 @@ function App() {
     return (
         <div>
             <Clock />
-            <Clock />
-            <Clock />
+            <Toggle />
+            <LoginControl />
         </div>
     );
 }
